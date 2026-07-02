@@ -105,8 +105,6 @@ Full JSON output (including raw NSE script details) is saved to
 01-port-scanning-nmap/
 ├── README.md
 ├── nmap-portscanner.py
-└── examples/
-    └── sample_output.json
 ```
 
 ## What I Learned
