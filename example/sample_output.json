@@ -1,0 +1,74 @@
+{
+  "target": "192.168.10.1",
+  "scanned_at": "2026-07-02T14:06:19.917882",
+  "hosts": [
+    {
+      "ip": "192.168.10.1",
+      "state": "up",
+      "open_ports": [
+        {
+          "port": 21,
+          "protocol": "tcp",
+          "service": "ftp",
+          "version": "1.9.4",
+          "vulnerabilities": [
+            "vulners"
+          ]
+        },
+        {
+          "port": 22,
+          "protocol": "tcp",
+          "service": "ssh",
+          "version": "0.48",
+          "vulnerabilities": []
+        },
+        {
+          "port": 23,
+          "protocol": "tcp",
+          "service": "telnet",
+          "version": "",
+          "vulnerabilities": []
+        },
+        {
+          "port": 53,
+          "protocol": "tcp",
+          "service": "domain",
+          "version": "2.80",
+          "vulnerabilities": [
+            "vulners"
+          ]
+        },
+        {
+          "port": 80,
+          "protocol": "tcp",
+          "service": "tcpwrapped",
+          "version": "",
+          "vulnerabilities": [
+            "http-trane-info",
+            "http-majordomo2-dir-traversal",
+            "http-vuln-cve2017-1001000",
+            "http-vuln-cve2010-0738",
+            "http-csrf",
+            "http-stored-xss",
+            "http-dombased-xss",
+            "http-server-header"
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "tcp",
+          "service": "tcpwrapped",
+          "version": "",
+          "vulnerabilities": [
+            "ssl-poodle",
+            "http-stored-xss",
+            "http-aspnet-debug",
+            "http-vuln-cve2014-3704",
+            "http-csrf",
+            "http-dombased-xss"
+          ]
+        }
+      ]
+    }
+  ]
+}     
