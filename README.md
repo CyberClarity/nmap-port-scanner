@@ -1,4 +1,4 @@
-# 01 - Port Scanning & Vulnerability Detection with Nmap
+# Port Scanning & Vulnerability Detection with Nmap
 
 ## Objective
 Learn active reconnaissance by identifying open ports, running services, and
